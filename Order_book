@@ -1,0 +1,11 @@
+tree = ET.parse('path')
+root = tree.getroot()
+sur = 0
+for elem in root:
+    if sur>10:
+        break
+    for subelem in elem:
+        if sur>10:
+            break
+        sur+=1
+        print(subelem.txt)
